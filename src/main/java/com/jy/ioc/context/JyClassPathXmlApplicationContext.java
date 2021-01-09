@@ -6,13 +6,12 @@ import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
+import org.springframework.stereotype.Component;
 
 import java.io.InputStream;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
-import java.util.Properties;
-import java.util.StringJoiner;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
@@ -77,7 +76,7 @@ public class JyClassPathXmlApplicationContext {
     }
 
     /**
-     * 根据路径或者当前流
+     * 根据路径获取当前流
      *
      * @param xmlPath xml路径
      * @return 流

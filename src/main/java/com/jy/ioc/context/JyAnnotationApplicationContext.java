@@ -45,14 +45,16 @@ public class JyAnnotationApplicationContext {
      * @throws Exception
      */
     private Object doCreateBean(String beanId) throws Exception{
-        //扫bao
+        //扫JyApplication下的所有包
         List<Class<?>> classes = ClassUtil.getAllClassByPackageName(JyApplication.class.getPackage());
         Object obj = null;
         for (Class< ? > clazz : classes) {
+            //判断是否有自定义的注解
             JyComponent annotation = clazz.getAnnotation(JyComponent.class);
             if (Objects.isNull(annotation)){
                 continue;
             }
+            //有则实例化
             String name = clazz.getSimpleName();
             String annotationBeanId = name.substring(0, 1).toLowerCase() + name.substring(1);
             Object instance = clazz.newInstance();

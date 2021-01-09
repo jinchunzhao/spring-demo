@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bf15acc-a4e9-4015-89af-c26517f061d6" name="Default Changelist" comment="通过注解的方式创建容器">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jy/mvc/aa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jy/mvc/annotation/JyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jy/mvc/annotation/JyRequestMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jy/mvc/servlet/JyDispatcherServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="9bf15acc-a4e9-4015-89af-c26517f061d6" name="Default Changelist" comment="手写Spring mvc简单架构">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jy/ioc/context/JyAnnotationApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jy/ioc/context/JyAnnotationApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jy/ioc/context/JyClassPathXmlApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jy/ioc/context/JyClassPathXmlApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jy/mvc/annotation/JyRequestMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jy/mvc/annotation/JyRequestMapping.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,13 +96,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,7 +126,8 @@
       <workItem from="1609507729575" duration="4511000" />
       <workItem from="1609588065480" duration="9163000" />
       <workItem from="1610025907820" duration="600000" />
-      <workItem from="1610164602780" duration="6103000" />
+      <workItem from="1610164602780" duration="6504000" />
+      <workItem from="1610181169067" duration="3318000" />
     </task>
     <task id="LOCAL-00001" summary="忽略文件">
       <created>1609510838095</created>
@@ -159,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609599993679</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="手写Spring mvc简单架构">
+      <created>1610175787922</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610175787922</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +186,7 @@
     <MESSAGE value="忽略文件" />
     <MESSAGE value="通过xml方式创建容器" />
     <MESSAGE value="通过注解的方式创建容器" />
-    <option name="LAST_COMMIT_MESSAGE" value="通过注解的方式创建容器" />
+    <MESSAGE value="手写Spring mvc简单架构" />
+    <option name="LAST_COMMIT_MESSAGE" value="手写Spring mvc简单架构" />
   </component>
 </project>
